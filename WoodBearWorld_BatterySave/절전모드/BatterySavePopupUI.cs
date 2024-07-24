@@ -10,7 +10,7 @@ using UnityEngine.EventSystems;
 public class BatterySavePopupUI : MonoBehaviour
 {
 
-	#region Feild.
+	#region Field.
 
 
 
