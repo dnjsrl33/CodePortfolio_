@@ -1,2 +1,3 @@
 # 이원기 코드 포트폴리오
-# Unity 및 Unreal Engine에서 사용한 코드 입니다.
+Wonderers_ ~로 시작하는 폴더들은 Unreal Engine 4.27을 사용하여 만든 원더러스 프로젝트의 코드 일부입니다.
+
