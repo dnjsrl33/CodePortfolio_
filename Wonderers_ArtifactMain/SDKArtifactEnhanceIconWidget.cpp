@@ -43,6 +43,7 @@ void USDKArtifactEnhanceIconWidget::CloseUIProcess()
 	Super::CloseUIProcess();
 }
 
+// 아이콘 선택 시 호출
 void USDKArtifactEnhanceIconWidget::OnSelectedArtifactIcon()
 {
 	ASDKHUD* SDKHUD = Cast<ASDKHUD>(GetOwningPlayer()->GetHUD());
@@ -59,6 +60,7 @@ void USDKArtifactEnhanceIconWidget::OnSelectedArtifactIcon()
 	}
 }
 
+// 아이콘 위젯 생성 시 호출출
 void USDKArtifactEnhanceIconWidget::NativeOnListItemObjectSet(UObject* ListItemData)
 {
 	if (IsValid(ListItemData) == false || IsValid(Cast<USDKWidgetParamArtifactEnhance>(ListItemData)) == false)
