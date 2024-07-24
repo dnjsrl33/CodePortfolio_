@@ -111,7 +111,6 @@ public class BatterySavePopupUI : MonoBehaviour
 		mainCamRenderOnOffBtn.onClick.AddListener(Button_SetMainRender);
 		stopBatterySaveBtn.onClick.AddListener(Button_Close);
 
-		//Test Slider
 		onDeMandValueSlider.wholeNumbers = true;
 		onDeMandValueSlider.minValue = 1;
 		onDeMandValueSlider.maxValue = 10;
