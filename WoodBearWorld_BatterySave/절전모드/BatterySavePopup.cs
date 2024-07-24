@@ -8,7 +8,7 @@ using System.Collections.Generic;
 public class BatterySavePopup : DefaultBGPopupBase
 {
 
-	#region Feild.
+	#region Field.
 
 	// 기본 오브젝트 정보.
 	BatterySavePopupUI popupUI;
